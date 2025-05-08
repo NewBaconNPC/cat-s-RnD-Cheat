@@ -143,7 +143,7 @@ elseif game.PlaceId == 12208518151 then
 			alertnotif()
 			notifytext("Monster: A-40 have been detect on locker highlighted the locker and make sure dont enter! ",Color3.fromRGB(143, 137, 137),3)
 			wait(0.15)
-			highlight(child,Color3.fromRGB(102, 102, 102))
+			highlight(child.Parent,Color3.fromRGB(102, 102, 102))
 		end
 	end)
 
